@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#t{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+}
+
+#mainlogo{
+    padding: 0px;
+    margin: 0px;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0px;
+    left: 145px;
+    
+    /* background-color: rgb(46, 46, 46); */
+}
+
+#mainlogo img{
+    width: 155px;
+    height: 105px;
+}
+
+.maintxt{
+    width: 60%;
+    height: 500px;
+    background-color: rgba(153, 205, 50, 0);
+    position: absolute;
+    top: 25%;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maintxt>.mainhead{
+    line-height: 80px;
+}
+
+.maintxt>button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 155, 212);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.maintxt>button>img{
+    width: 20px;
+    height: 20px;
+}
+
+.maintxt h1, .maintxt h2, .maintxt h3,.mainsubhead h4, .mainsubhead h5{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div h3{
+    font-size: 25px;
+    height: fit-content;
+}
+
+div h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+div h1{
+    font-size: 120px;
+}
+
+.mainsubhead div{
+    display: flex;
+}
+
+.mainsubhead h4{
+    width: fit-content;
+}
+
+.treesweb{
+    width: 45%;
+    height: 50em;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    z-index: -1;
+    background-color: transparent;
+    background-image: none;
+    /* box-shadow: 0px 0px 25px black; */
+    /* margin: 0px; */
+}
+
+.nootree{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.749);
+    position: absolute;
+    /* top: 100%; */
+    bottom: 100px;
+    right: 200px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NoTre{
+    text-shadow: none;
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+    width: fit-content;
+}
+
+#NoTre+p{
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    border: solid 2px rgba(255, 255, 255, 0.749);
+    outline: solid 3px white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+#NoTre~h5{
+    position: absolute;
+    left: -142px;
+    top: 27px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-shadow: none;
+}
+
+@media only screen and (max-width:361px){
+    
+
+    .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    
+    #t{
+        width: 1500px;
+        height: 100vh;
+        position: relative;
+        left: 400px;
+        z-index: -1;
+    
+    }
+    
+    #mainlogo{
+        padding: 0px 20px;
+        margin: 0px;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        
+        /* background-color: rgb(46, 46, 46); */
+    }
+    
+    #mainlogo img{
+        width: 90px;
+        height: 85px;
+    }
+    
+    .maintxt{
+        width: 100%;
+        height: 600px;
+        /* background-color: rgb(172, 255, 6); */
+        padding: 10px;
+        position: absolute;
+        top: 15%;
+        text-align:justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .maintxt>.mainhead{
+        line-height: 65px;
+    }
+    
+    .maintxt>button{
+        width: 180px;
+        height: 40px;
+        background-color: rgb(0, 155, 212);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        text-shadow: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    .maintxt>button>img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .maintxt h1, .maintxt h2, .maintxt h3,.mainsubhead h4, .mainsubhead h5{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .maintxt h3{
+        font-size: 18px;
+        /* background-color: wheat; */
+        /* height: fit-content; */
+    }
+    
+    .maintxt div h2{
+        font-size: 28px;
+        font-weight: lighter;
+    }
+    
+    .maintxt div h1{
+        width: 290px;
+        font-size: 75px;
+        /* background-color: yellow; */
+        /* letter-spacing: 10px; */
+    }
+
+    .mhead3{
+        font-size: 15px;
+        padding: 0px;
+    }
+    
+    .mainsubhead div{
+        display: flex;
+    }
+    
+    .mainsubhead h4{
+        width: fit-content;
+    }
+    
+    .treesweb{
+        width: 85%;
+        height: 25em;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        z-index: -1;
+        background-color: transparent;
+        background-image: none;
+        /* box-shadow: 0px 0px 25px black; */
+        /* margin: 0px; */
+    }
+    
+    .nootree{
+        width: 120px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.749);
+        position: absolute;
+        /* top: 100%; */
+        bottom: 320px;
+        right: 10px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #NoTre{
+        text-shadow: none;
+        color: green;
+        font-weight: bold;
+        font-size: 20px;
+        width: fit-content;
+    }
+    
+    #NoTre+p{
+        position: absolute;
+        left: -5px;
+        width: 10px;
+        height: 10px;
+        border: solid 2px rgba(255, 255, 255, 0.749);
+        outline: solid 3px white;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: green;
+    }
+    
+    #NoTre~h5{
+        position: absolute;
+        left: -66px;
+        top: 15px;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        text-shadow: none;
+    }
+}

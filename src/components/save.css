@@ -1,0 +1,493 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.Savetrees{
+    width: 100%;
+    height: 70em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    top: 90em;
+    background-image: url(https://wallpaperaccess.com/full/5585319.jpg);
+}
+
+.Savetrees h1{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: none;
+    animation-duration: 1s;
+}
+
+@keyframes Savecardani{
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.Savetrees p{
+    font-size: 20px;
+    text-shadow: none;
+    text-align: center;
+    padding: 10px;
+    animation-duration: 1s;
+}
+
+.cardheads{
+    animation-duration: 1s;
+}
+
+@keyframes cardheadsani{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes cardheadsani2{
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes cardheadsani3{
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes cardparbtn {
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.cardparabtn{
+    animation-duration: 1s;
+}
+
+.cardparabtn1{
+    animation-duration: 1s;
+}
+
+.cardparabtn2{
+    animation-duration: 1s;
+}
+
+.card1{
+    width: 320px;
+    height: 310px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.522);
+}
+
+.card1 h4{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    text-shadow: none;
+    /* background-color: rgb(210, 221, 188); */
+}
+
+
+#h41{
+    color: rgb(171, 81, 255);
+}
+
+#h41~button, #h42~button, #h43~button{
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#h41~button{
+    color: rgb(171, 81, 255);
+}
+
+#h42~button{
+    color: rgb(65, 154, 255);
+}
+
+#h43~button{
+    color: rgb(36, 255, 164);
+}
+
+#h41~button:hover, #h42~button:hover, #h43~button:hover{
+    color: white;
+    transition: all 1s;
+}
+
+#h41~button:hover{
+    background-color: rgb(171, 81, 255);
+
+}
+
+#h42~button:hover{
+    background-color: rgb(65, 154, 255);
+}
+
+#h43~button:hover{
+    background-color: rgb(36, 255, 164);
+}
+
+#h42{
+    color: rgb(65, 154, 255);
+}
+
+#h43{
+    color: rgb(36, 255, 164);
+}
+
+.card1 h4 span{
+    width:fit-content;
+    font-size: 50px;
+    text-shadow: none;
+}
+
+.card1 p{
+    text-align: left;
+}
+
+.card1 button{
+    width: 150px;
+    font-size: 16px;
+    border:none;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+marquee{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+marquee>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.incard{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.incard>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.incard>div>h3, .incard>div>h4{
+    width: fit-content;
+    text-shadow: none;
+}
+
+.incard>div+p{
+    text-align: left;
+    padding: 0px;
+}
+
+.incard>h4{
+    text-shadow: none;
+    
+}
+
+@media only screen and (max-width:361px){
+    .Savetrees{
+        width: 100%;
+        height: 215vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        top: 90em;
+        background-image: url(https://wallpaperaccess.com/full/5585319.jpg);
+    }
+    
+    .Savetrees h1{
+        font-size: 25px;
+        text-align: center;
+        text-shadow: none;
+        animation-duration: 1s;
+        /* margin-top:100px ; */
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    @keyframes Savecardani{
+        from{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    
+    .Savetrees p{
+        font-size: 18px;
+        text-shadow: none;
+        text-align: center;
+        padding: 10px;
+        animation-duration: 1s;
+    }
+    
+    .cardheads{
+        animation-duration: 1s;
+    }
+    
+    @keyframes cardheadsani{
+        from{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes cardheadsani2{
+        from{
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    
+    
+    @keyframes cardheadsani3{
+        from{
+            transform: translateX(100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes cardparbtn {
+        from{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    
+    .cardparabtn{
+        animation-duration: 1s;
+    }
+    
+    .cardparabtn1{
+        animation-duration: 1s;
+    }
+    
+    .cardparabtn2{
+        animation-duration: 1s;
+    }
+
+    #cards{
+        /* background-color: yellow; */
+    }
+    
+    .card1{
+        width: 290px;
+        height: 290px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.522);
+    }
+    
+    .card1 h4{
+        width: 270px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        text-shadow: none;
+        /* background-color: rgb(210, 221, 188); */
+    }
+    
+    
+    #h41{
+        color: rgb(171, 81, 255);
+    }
+    
+    #h41~button, #h42~button, #h43~button{
+        font-weight: bold;
+        background-color: transparent;
+    }
+    
+    #h41~button{
+        color: rgb(255, 255, 255);
+        background-color: rgb(171, 81, 255);
+    }
+    
+    #h42~button{
+        color: rgb(255, 255, 255);
+        background-color: rgb(65, 154, 255);
+
+    }
+    
+    #h43~button{
+        color: rgb(255, 255, 255);
+        background-color: rgb(36, 255, 164);
+
+    }
+    
+    #h41~button:hover, #h42~button:hover, #h43~button:hover{
+        color: white;
+        transition: all 1s;
+    }
+    
+    
+    #h42{
+        color: rgb(65, 154, 255);
+    }
+    
+    #h43{
+        color: rgb(36, 255, 164);
+    }
+    
+    .card1 h4 span{
+        width:fit-content;
+        font-size: 50px;
+        text-shadow: none;
+    }
+    
+    .card1 p{
+        text-align: left;
+    }
+    
+    .card1 button{
+        width: 150px;
+        font-size: 16px;
+        border:none;
+        border-radius: 20px;
+        padding: 8px;
+        margin: 8px;
+        text-shadow: none;
+        cursor: pointer;
+    }
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 130vh;
+        /* background-color: yellow; */
+    }
+    
+    marquee{
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    
+    marquee>div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .incard{
+        width: 350px;
+        height: 300px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px;
+    }
+    
+    .incard>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .incard>div>h3, .incard>div>h4{
+        width: fit-content;
+        text-shadow: none;
+    }
+    
+    .incard>div+p{
+        text-align: left;
+        padding: 0px;
+    }
+    
+    .incard>h4{
+        text-shadow: none;
+        
+    }
+}

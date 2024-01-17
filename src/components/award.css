@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.awardcard{
+    width: 100%;
+    height: 592px;
+    background-image: linear-gradient(55deg, rgb(209, 209, 255), rgb(209, 255, 255), rgb(212, 255, 212), rgb(255, 239, 209));
+    /* background-image: url(https://wallpaperaccess.com/full/5585319.jpg);  */
+    position: absolute;
+    top: 53em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#divcard{
+    width: 900px;
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    /* box-shadow: 0px 0px 8px black; */
+    animation-duration: 1s;
+}
+
+@keyframes divcardani{
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.awardcard>div img{
+    width: 70%;
+    height: 70px;
+}
+
+#jacobsC{
+    width: 70px;
+    height: 70px;
+}
+
+#SusC{
+    width: 100px;
+    height: 70px;
+}
+
+.awardcard h1{
+    font-size: 25px;
+    width: fit-content;
+    text-shadow: none;
+}
+
+figure{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(215, 255, 135, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.figcaptionhead{
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.figsub{
+    width: 150px;
+}
+
+figcaption{
+    text-align: center;
+    text-shadow: none;
+}
+
+#awards{
+    display: flex;
+    width: fit-content;
+}
+
+@media only screen and (max-width:361px){
+    .awardcard{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(55deg, rgb(209, 209, 255), rgb(209, 255, 255), rgb(212, 255, 212), rgb(255, 239, 209));
+        /* background-image: url(https://wallpaperaccess.com/full/5585319.jpg);  */
+        position: absolute;
+        top: 45em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    #divcard{
+        width: 100%;
+        height: 400px;
+        border: none;
+        border-radius: 0px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        box-shadow: 0px 0px 0px black;
+        animation-duration: 1s;
+        overflow: hidden;
+    }
+    
+    @keyframes divcardani{
+        from{
+            transform: translateY(200px);
+        }
+        to{
+            transform: translateY(0px);
+        }
+    }
+    
+    .awardcard>div img{
+        width: 50%;
+        height: 35px;
+    }
+    
+    #jacobsC{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #SusC{
+        width: 60px;
+        height: 50px;
+    }
+    
+    .awardcard h1{
+        font-size: 25px;
+        text-align: center;
+        width: fit-content;
+        text-shadow: none;
+    }
+    
+    figure{
+        width: 300px;
+        height: 200px;
+        /* background-color: rgb(215, 255, 135); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /* #sacn{
+        width: 300px;
+        background-color: yellow;
+    } */
+    
+    .figcaptionhead{
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: none;
+    }
+    
+    .figsub{
+        font-size: 15px;
+    }
+    
+    figcaption{
+        text-align: center;
+        text-shadow: none;
+    }
+    
+    #awards{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+        overflow: scroll;
+        overflow-y: hidden;
+
+    }
+    
+    
+}
